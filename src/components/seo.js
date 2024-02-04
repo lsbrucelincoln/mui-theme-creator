@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 import { useStaticQuery, graphql } from "gatsby"
 import siteImage from "src/images/mui_theme_creator_logo.png"
@@ -105,11 +105,11 @@ SEO.defaultProps = {
   description: ``,
 }
 
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-}
+// SEO.propTypes = {
+//   description: PropTypes.string,
+//   lang: PropTypes.string,
+//   meta: PropTypes.arrayOf(PropTypes.object),
+//   title: PropTypes.string.isRequired,
+// }
 
 export default SEO
